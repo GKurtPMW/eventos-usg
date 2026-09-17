@@ -2,7 +2,7 @@
 
 Projeto web desenvolvido para a divulgação e gestão de eventos acadêmicos, como palestras, workshops e simpósios da Universidade de São Gabriel.
 
-🔗 **Link para acessar o site:** [Clique aqui para visualizar](https:https://github.com/GKurtPMW/eventos-usg)
+🔗 **Link para acessar o site:** [Clique aqui para visualizar](https://gkurtpmw.github.io/eventos-usg/index.html)
 
 ---
 
