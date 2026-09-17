@@ -280,6 +280,14 @@ th {
     header h1 {
         font-size: 22px;
     }
+
+    header h2 {
+        width: 100%;
+    }
+
+    .sobre p{
+        width: 100%;
+    }
     
     .eventos {
         flex-direction: column;
