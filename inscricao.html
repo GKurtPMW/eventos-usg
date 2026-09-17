@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição - Eventos USG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+        <div class="texto-header">
+        <h1>Universidade de São Gabriel</h1>
+        <h2>Garanta sua vaga nos eventos preenchendo o formulário abaixo.</h2>
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="programacao.html">Programação</a></li>
+                <li><a href="inscricao.html">Inscrição</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="formulario-bloco">
+            <h3 style="text-align: center; color: #4c0000; margin-bottom: 20px;">Ficha de Inscrição</h3>
+            
+            <form action="#" method="POST">
+                
+                <div class="cadastro">
+                    <label for="nome">Nome Completo:</label>
+                    <input class="caixa-texto" type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+                </div>
+
+                <div class="cadastro">
+                    <label for="email">E-mail Institucional ou Pessoal:</label>
+                    <input class="caixa-texto" type="email" id="email" name="email" placeholder="exemplo@email.com">
+                </div>
+
+                <div class="cadastro">
+                    <label for="curso">Curso:</label>
+                    <input class="caixa-texto" type="text" id="curso" name="curso" placeholder="Ex: Engenharia de Software">
+                </div>
+
+                <div class="cadastro">
+                    <label for="periodo">Período/Semestre:</label>
+                    <input class="caixa-texto" type="text" id="periodo" name="periodo" placeholder="Ex: 4º Semestre">
+                </div>
+
+                <div class="cadastro">
+                    <label for="evento">Selecione o Evento Desejado:</label>
+                    <select id="evento" name="evento">
+                        <option value="">Escolha um evento...</option>
+                        <option value="ia">Palestra: IA no Dia a Dia</option>
+                        <option value="web">Minicurso: Desenvolvimento Web</option>
+                        <option value="saude">Workshop: Saúde Mental</option>
+                        <option value="empreendedorismo">Oficina: Empreendedorismo</option>
+                        <option value="financas">Palestra: Educação Financeira</option>
+                        <option value="robotica">Minicurso: Robótica</option>
+                    </select>
+                </div>
+
+                <div class="cadastro">
+                    <label>Modalidade de Participação:</label>
+                    <div class="modalidade-participacao">
+                        <label><input type="radio" name="modalidade" value="presencial">Presencial</label>
+                        <label><input type="radio" name="modalidade" value="online">Online</label>
+                    </div>
+                </div>
+
+                <div class="cadastro">
+                    <label>
+                        <input type="checkbox" name="confirmacao">
+                        Confirmo que as informações estão corretas e concordo com as regras do evento.
+                    </label>
+                </div>
+
+                <button type="submit" class="btn-inscrever">Realizar Inscrição</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
